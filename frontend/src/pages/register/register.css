@@ -1,0 +1,162 @@
+/* General styles for the page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 10px;
+  }
+  
+  .container {
+    display: flex;
+    max-width: 1200px;
+    margin: 20px auto;
+    background-color: white;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden; /* Ensures child elements don't overflow the container */
+  }
+  
+  .left-side {
+    width: 50%;
+    padding: 25px;
+    background-image: url('https://www.flexiquiz.com/Uploads/Guides/f1846b31-be5d-4332-b199-3cf87d14888a_6cfd0fa0-f88e-4037-b61c-76cbeab584b1');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .right-side {
+    width: 50%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .language-select-top {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+  }
+  
+  .select-language {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f1f1f1;
+  }
+  
+  .google-signin {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px; /* Increased margin for better spacing */
+  }
+  
+  .google-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60%; /* Adjusted width to take full available space */
+    padding: 10px;
+    background-color: #4285F4;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 4px;
+    transition: background-color 0.3s; /* Added missing 's' for seconds */
+  }
+  
+  .google-button:hover {
+    background-color: #357ae8;
+  }
+  
+  .google-icon {
+    color: white;
+    margin-right: 8px;
+  }
+  
+  .divider-container {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+    text-align: left;
+  }
+  
+  .divider {
+    flex-grow: 1;
+    border: 0;
+    height: 1px;
+    background: linear-gradient(to right, #f8f8f845, #ccc, #f8f8f8);
+  }
+  
+  .divider-label {
+    margin: 0 10px;
+    font-size: 14px;
+    color: #1f1e1e;
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .input-field {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+    transition: border-color 0.3s;
+  }
+  
+  .input-field:focus {
+    border-color: #4285F4;
+  }
+  
+  .form {
+    max-width: 100%; /* Adjusted width to take full available space */
+    margin: 0 auto;
+  }
+  
+  .submit-button {
+    width: 100%; /* Adjusted width to take full available space */
+    padding: 12px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+  }
+  
+  .submit-button:hover {
+    background-color: #45a049;
+  }
+  
+  p {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  a {
+    color: #4285F4;
+    text-decoration: none;
+    transition: text-decoration 0.3s;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
